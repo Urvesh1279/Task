@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
+
+form label {
+  margin-top: 10px;
+}
+
+form input {
+  padding: 5px;
+}
+
+form button {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+#dataList {
+  list-style-type: none;
+  padding: 0;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+#dataList li {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.form-btn-container {
+  display: flex;
+  gap: 10px;
+}
+
+.form-btn-container > button {
+  flex: 1;
+}
